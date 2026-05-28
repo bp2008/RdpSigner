@@ -13,3 +13,7 @@ A simple Windows appliation that makes it easy to:
 3. Sign `.rdp` files.
 
 All of the above without typing or pasting commands into Powershell.
+
+## Installation
+
+Download the latest release from the [Releases area](https://github.com/bp2008/RdpSigner/releases), and run it.
