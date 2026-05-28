@@ -6,7 +6,7 @@
 
 ## Description
 
-A simple Windows appliation that makes it easy to:
+A simple Windows application that makes it easy to:
 
 1. Generate a self-signed Code Signing certificate for signing `.rdp` files.
 2. Import and Trust a Code Signing certificate.  This step is necessary to be able to sign `.rdp` files or to be able to use signed `.rdp` files without security warnings.
