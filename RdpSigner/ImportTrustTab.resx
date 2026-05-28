@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="_info.Text" xml:space="preserve">
-    <value>Notes:  Importing into LocalMachine requires running this app as administrator.  Adding to Root may show a Windows confirmation dialog the first time.  Signing requires importing from a .pfx (private key) into My.</value>
+    <value>Notes:  Importing into LocalMachine requires running this app as administrator.  Adding to Root may show a Windows confirmation dialog the first time.  Signing requires importing from a .pfx (private key) into "My".</value>
   </data>
 </root>

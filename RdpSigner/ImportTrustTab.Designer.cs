@@ -117,7 +117,7 @@ partial class ImportTrustTab
 		_form.RowStyles.Add(new RowStyle());
 		_form.RowStyles.Add(new RowStyle());
 		_form.RowStyles.Add(new RowStyle());
-		_form.Size = new Size(779, 446);
+		_form.Size = new Size(779, 454);
 		_form.TabIndex = 0;
 		// 
 		// _certPathLabel
@@ -293,7 +293,7 @@ partial class ImportTrustTab
 		_trustPolicy.Location = new Point(114, 204);
 		_trustPolicy.Margin = new Padding(0, 8, 0, 8);
 		_trustPolicy.Name = "_trustPolicy";
-		_trustPolicy.Size = new Size(567, 49);
+		_trustPolicy.Size = new Size(395, 57);
 		_trustPolicy.TabIndex = 9;
 		_trustPolicy.Text = "Suppress RDP connection security warning (add thumbprint to TrustedCertThumbprints policy)";
 		_trustPolicy.UseVisualStyleBackColor = true;
@@ -303,7 +303,7 @@ partial class ImportTrustTab
 		_info.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
 		_form.SetColumnSpan(_info, 2);
 		_info.ForeColor = Color.DimGray;
-		_info.Location = new Point(114, 269);
+		_info.Location = new Point(114, 277);
 		_info.Margin = new Padding(0, 8, 0, 8);
 		_info.Name = "_info";
 		_info.Size = new Size(665, 80);
@@ -317,7 +317,7 @@ partial class ImportTrustTab
 		_buttonPanel.Controls.Add(_import);
 		_buttonPanel.Dock = DockStyle.Top;
 		_buttonPanel.FlowDirection = FlowDirection.RightToLeft;
-		_buttonPanel.Location = new Point(117, 361);
+		_buttonPanel.Location = new Point(117, 369);
 		_buttonPanel.Margin = new Padding(3, 4, 3, 4);
 		_buttonPanel.Name = "_buttonPanel";
 		_buttonPanel.Padding = new Padding(0, 11, 0, 11);
@@ -342,13 +342,13 @@ partial class ImportTrustTab
 		_log.BackColor = Color.White;
 		_log.Dock = DockStyle.Fill;
 		_log.Font = new Font("Consolas", 9F);
-		_log.Location = new Point(3, 458);
+		_log.Location = new Point(3, 466);
 		_log.Margin = new Padding(3, 4, 3, 4);
 		_log.Multiline = true;
 		_log.Name = "_log";
 		_log.ReadOnly = true;
 		_log.ScrollBars = ScrollBars.Vertical;
-		_log.Size = new Size(779, 187);
+		_log.Size = new Size(779, 179);
 		_log.TabIndex = 1;
 		// 
 		// ImportTrustTab
